@@ -8,6 +8,7 @@ import java.util.List;
 
 public class SpeakerServiceImpl implements SpeakerService {
 
+    /*Here the problem is the hardcoding done to get the HibernateSpeakerRepositoryImpl*/
     private SpeakerRepository repository=new HibernateSpeakerRepositoryImpl();
 
     @Override
